@@ -1,0 +1,223 @@
+
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>   
+        <title>About</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About</title>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+            }
+            table.center {
+              margin-left: auto;
+              margin-right: auto;
+            }
+            h1{
+                text-align: center;
+                color:black;
+                          }
+            h2{
+            text-align: center;
+            color:black;
+                        }              
+            h3{
+              text-align: center;
+              color:red;
+                        }
+            h4{
+                text-align: center;
+                color:red;
+                            } 
+            h5{
+                text-align: center;
+                color:black;
+                            } 
+            p{
+                text-align: center;
+                color:blue;
+                style:bold;
+                margin:20px;
+                        }                            
+            a{
+              text-align: center;
+              color:red;
+                        }  
+            nav.sticky.navbar-brand,
+            navsticky ul li           
+        </style>
+        <link rel="stylesheet" href="">
+       
+    </head>
+    <body>
+      
+        <!--nav class="navbar fixed-top navbar-light bg-primary"-->
+      <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #FFA07A;">
+        <!--nav class="navbar navbar-expand-lg" style="background-color: #FFA07A;"-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Rayhan</a>
+           <div class="container-fluid">
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             
+              </button>
+              <!--a class="navbar-brand"href="">Logout</a-->
+                     
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="navbar-brand">
+                    <a class="nav-link active"<a href="">Home</a>
+                  </li>
+                </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="navbar-brand">
+                      <a class="nav-link active"<a href="{% url'skul:login' %}">Login</a>
+                    </li>
+                  </ul>
+                  </div>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="navbar-brand">
+                        <a class="nav-link active"<a href=""></a>
+                      </li>
+                    </ul>
+                    </div>
+            </div>
+          </nav>
+          <br></br>
+    <div>
+      <!--br></br><br></br>
+       
+        <h1>This is about page.</h1> <br>
+        <h1>{{skul}}</h1>
+        <br>
+        <h1>{{exam}}</h1>
+        
+        <br></br>
+        <div>
+          <br></br--><br></br>
+          <h2 > Sohoz Exam Management System</h2>
+          <br>
+          
+          <h4>
+        You may find the answers of some freequently asked questions(FAQ's) here. 
+          </h4>
+          <h4>
+           Why do you choose our service?
+              </h4>
+          <br>
+          <h4>
+         Who can use this site?
+          </h4>
+        <p>
+        Any Bangladeshi higher secondery school can use this site .
+        </p>
+        <h4>
+            Why Bangladeshi higher secondery schools use this site ?
+             </h4>
+             <h4><p>Compliance with Govt. Education Board Standard.<br>
+             Accurate and quick calculation. <br>
+            Automatic accademic transcript generate. <br>
+            Automatic class wise student list generate.<br>
+            Automatic ID card soft copy generate and print.<br>
+            Easily manage pre and post examination works.<br>
+            Autoamtic Seat plan generate.<br> 
+            Automatic admit card generate.<br>
+            Automatic merit list generate. <br>
+            Automatic tabulation sheet generate.<br>
+            All documents can be saved as PDF file.<br>
+            One click print option.<br>
+            Teachers can input marks at there own.
+            <br>Compatible with Mobile and PC.
+            <br>
+           </p></h4>
+           
+           <br>
+           <h4>
+          Is this service free?
+           </h4>
+         <p>
+         No it's not free. Like other SAAS (software as a service) products you have to pay ?
+         </p>
+         <h4>
+          <br>
+          <h4>
+         How much does it costs?
+          </h4>
+        <p><h5>
+          We have two plans .Regular and custom. <br>
+          Regular : Student list.<br>ID card soft copy.<br>
+          Easily manage pre and post examination works.<br>
+          Seat plan.<br> Admit card.<br>
+         Accademic transcript. Accurate and quick calculation. <br>
+         Merit list.<br>Tabulation sheet.<br>
+          Compliance with Govt. Education Board Standard.<br>
+        Print and save option.<br>
+        All documents can be saved as PDF file.<br>
+        </h5></p><br>
+        <p><h5>
+          Custom :Including all services of regular package.  
+           <br>You will get access to accounts page  and online academic services page <br> 
+        </h5>
+        </p>
+        
+          
+        <h4>
+         If there is any special discount available ?
+          </h4><br>
+        <p><h3>
+        Yes,  50 % discount available for the first 100 clients. </h3>
+        </p>
+        
+        
+          <br>
+          <h4>
+         From when I can purchase the product and start using ?
+          </h4>
+        <h5>
+        Any time you can buy it and use the services. Best option is to start using from November / December.<br>
+         So that you can entry and use all students information from the very begining of the accademic year.<br>  
+        </h5>
+        <h4>
+        <br></br>
+        <h4>Feel free to ask anything </h4>
+            <h1 > info@softray.io</h1>
+            <br>
+            
+             
+            </div>
+          
+          <br></br>
+         
+            <script  type="text/javascript"> 
+                window.addEventListener("scroll",function(){
+                  var header = document.querySelector("header");
+                  header.classList.toggle("sticky",window.scrolly > 0)
+                    })  
+             </script >        
+               
+                 
+                  
+             <!--------------------Footer Start------------------------>
+             <footer class="bg-success text-white position-relative">
+               <p class="text-center">© Copyright 2022-2032 www.Soft Ray.io. All rights reserved. Developed by Soft Ray.</p>
+             </footer>
+             <!--------------------Footer End------------------------>
+             <br>
+
+        <script src="" async defer></script>
+    </body>
+</html>
